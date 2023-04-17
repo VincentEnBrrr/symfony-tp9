@@ -1,0 +1,21 @@
+{{ form_start(form) }}
+
+<h3>Saisir le nom : </h3>
+ {{ form_widget(form.nom) }}
+
+ <h3>Saisir le prenom : </h3>
+ {{ form_widget(form.prenom) }}
+
+ <h3>Saisir la naissance : </h3>
+ {{ form_widget(form.naissance) }}
+
+ <h3>Saisir le niveau : </h3>
+ {{ form_widget(form.niveau) }}
+
+<h3>Saisir le mail <I>*facultatif*</I> : </h3>
+ {{ form_widget(form.mail) }} 
+ <br>
+<br>
+{{ form_widget(form.ENVOYER) }}
+
+{{ form_end(form) }}

@@ -1,0 +1,22 @@
+ <table>
+  <thead>
+    <tr>
+      <th>Prenom_____|</th>
+      <th>Nom_____|</th>
+       <th>Naissance_____|</th>
+        <th>Niveau_____|</th>
+         <th>Mail____|</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for i in etudiants %}
+      <tr>
+        <td>{{i.prenom }} </td> 
+        <td>{{i.nom }} </td>
+        <td>{{i.naissance }} </td>
+        <td>{{i.niveau }} </td>
+        <td>{{i.mail }} </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
